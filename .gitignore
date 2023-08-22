@@ -1,0 +1,71 @@
+*.class
+*.log
+.g8
+.bsp
+.classpath
+.settings
+./RUNNING_PID
+target/.*
+target/bg-jobs
+target/config-classes
+target/global-logging
+target/scala-2.13
+target/streams
+target/task-temp-directory
+target/universal
+gatling/.bsp
+gatling/.idea
+gatling/target/.*
+gatling/project/target/.*
+./target/.*
+
+Thumbs.db
+.tmp*
+tmp
+.target
+out
+/bin
+logs
+
+# sbt specific
+.cache*
+.history
+.lib
+target
+lib_managed
+src_managed
+.project/project
+.project/target
+project/boot
+project/plugins/project
+project/project
+project/target
+
+RUNNING_PID
+
+# Tests Diagnostics
+akka-diagnostics/*
+akka-diagnostics
+akka-diagnostics/
+akka-diagnostics/Diagnostics-com-vaporstream-infrastructure-ApiSpec.json
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# Eclipse specific
+.eclipse
+
+# IntelliJ specific
+.idea
+*.iml
+.idea_modules
+
+# VS Code specific
+.metals
+
+# Mac specific
+.DS_Store*
+
+*quine-1.4.2.jar
+*.quine-1.4.2.jar
