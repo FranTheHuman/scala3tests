@@ -70,11 +70,11 @@ object MatchTypes extends App {
   // type AnnoyingMatchType[T] = T match
   //   case _      => AnnoyingMatchType[T]
 
-  // Compile but ...
-  type InfiniteRecursiveType[T] = T match
-    case Int => InfiniteRecursiveType[Int]
+  // Compile but not build and cannot be use...
+  //type InfiniteRecursiveType[T] = T match
+  //  case Int => InfiniteRecursiveType[Int]
 
-  def aNaiveMethod[T]: InfiniteRecursiveType[T] = ???
+  //def aNaiveMethod[T]: InfiniteRecursiveType[T] = ???
 
   // Recursion Limit Exceeded: InfiniteRecursiveType
   // val illegal: Int = aNaiveMethod[Int]
